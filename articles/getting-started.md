@@ -14,9 +14,4 @@ On, your local machine, create a directory for kestra and download the docker-co
 
 Now, in the terminal, run `docker-compose pull` in the root of your kestra project, where you downloaded the docker-compose.yml file. This will pull all the remote images, then run `docker-compose up -d` to build the images
 
-In docker desktop, you should see botk kestra and postgres images running within the kestra container like below ![Image](../../assets/images/Screenshot%202022-11-23%20at%2021.00.06.png)
-
-![full-stack-chatbot-architecture.svg](https://github.com/stephensanwo/fullstack-ai-chatbot/blob/master/docs/full-stack-chatbot-architecture.drawio.svg)
-
-- [ ] Download then docker-compose.yml file https://github.com/kestra-io/kestra/blob/develop/docker-compose.yml
-- [ ] Run docker-compose pull to pull the dependencies
+In docker desktop, you should see botk kestra and postgres images running within the kestra container like below ![Image](../assets/images/Screenshot%202022-11-23%20at%2021.00.06.png)
