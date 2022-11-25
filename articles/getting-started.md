@@ -61,7 +61,7 @@ The flow `sample-task` has a single task that prints some information about the 
 Next, click **Save** at the bottom right corner to save the flow, then click **New Execution** to execute the flow. This will open the executions tab, and you should see a green bar on task1 within the gantt chart, you can click it to show the output. You should see the output printed based on the defined format within the task as shown below:
 
 <video width="100%" height="100%" controls>
-  <source src="../assets/videos/create-basic-flow.mov" type="video/mp4">
+  <source src="../assets/videos/create-basic-flow.mov" type="video/mov">
 </video>
 
 ## Orchestrating Workflows
@@ -220,7 +220,7 @@ tasks:
 Next, click **Execution**, this will open up a dialog box requesting to provide the parameters for our inputs, as a sample, you can paste this subreddit: `https://www.reddit.com/r/news.json` as the url and `r-news-today` as the subreddit name, then click execute. If done correctly, the tasks should run as shown below. You can then check the S3 bucket to see the data loaded.
 
 <video width="100%" height="100%" controls>
-  <source src="../assets/videos/sequential-reddit-aws-download.mov" type="video/mp4">
+  <source src="../assets/videos/sequential-reddit-aws-download.mov" type="video/mov">
 </video>
 
 Finally, we can explore extracting data from multiple subreddits in parallel. Create a new flow named `kestra-reddit-aws-parallel-example` and add the code below
@@ -299,7 +299,7 @@ Note that we have abstracted the AWS credentials into global variables so that w
 When you click execute, you can provide two subreddits; `https://www.reddit.com/r/news.json` and `https://www.reddit.com/r/sports.json` in the dialog box, then execute. Take note of the gantt chart as shown below, which shows both processes running in parallel.
 
 <video width="100%" height="100%" controls>
-  <source src="../assets/videos/parallel-reddit-download.mov" type="video/mp4">
+  <source src="../assets/videos/parallel-reddit-download.mov" type="video/mov">
 </video>
 
 ## Next Steps:
