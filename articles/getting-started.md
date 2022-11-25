@@ -2,7 +2,7 @@
 
 ## What is Kestra?
 
-Kestra is an open-source orchestration & scheduler platform that makes it easy to build, schedule, run, and monitor complex pipelines. Kestra focuses on simplicity and scalability, so that anyone i.e; Data Engineers, Software Developers, Business Analysts, etc, can quickly and easily automate their workflows, create a schedule to run the workflows, and extend the workflows to cover more complex use cases as the business requirement changes. [This article](https://kestra.io/blogs/2022-02-01-kestra-opensource.html) discusses in detail, the motivation behind Kestra in.
+Kestra is an open-source orchestration & scheduler platform that makes it easy to build, schedule, run, and monitor complex pipelines. Kestra focuses on simplicity and scalability, so that anyone i.e; Data Engineers, Software Developers, Business Analysts, etc, can quickly and easily automate their workflows, create a schedule to run the workflows, and extend the workflows to cover more complex use cases as the business requirement changes. [This article](https://kestra.io/blogs/2022-02-01-kestra-opensource.html) discusses in detail, the motivation behind Kestra.
 
 ## Pre Requisites
 
