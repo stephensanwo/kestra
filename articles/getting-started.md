@@ -64,6 +64,8 @@ Next, click **Save** at the bottom right corner to save the flow, then click **N
   <source src="../assets/videos/create-basic-flow.mov" type="video/mov">
 </video>
 
+[Create Basic Flow Video](../assets/videos/create-basic-flow.mov)
+
 ## Orchestrating Workflows
 
 Next, we take a look at orchestrating multiple tasks within a flow using `flowable tasks`. These are special tasks in the core plugin `io.kestra.core.tasks.flows` that can be used to orchestrate multiple tasks together in building out more complex flows. There are several flowable tasks in kestra, but for now, we will focus on two (2) very important ones; **sequential** and **parallel** tasks. There are several other flowable tasks useful for different purposes, you can read the [documentation](https://kestra.io/docs/developer-guide/flowable/) to learn more about them.
@@ -223,6 +225,8 @@ Next, click **Execution**, this will open up a dialog box requesting to provide 
   <source src="../assets/videos/sequential-reddit-aws-download.mov" type="video/mov">
 </video>
 
+[Sequential Reddit AWS Download Video](../assets/videos/sequential-reddit-aws-download.mov)
+
 Finally, we can explore extracting data from multiple subreddits in parallel. Create a new flow named `kestra-reddit-aws-parallel-example` and add the code below
 
 ```yml
@@ -301,6 +305,9 @@ When you click execute, you can provide two subreddits; `https://www.reddit.com/
 <video width="100%" height="100%" controls>
   <source src="../assets/videos/parallel-reddit-download.mov" type="video/mov">
 </video>
+
+[Parallel Reddit AWS Download Video](../assets/videos/parallel-reddit-download.mov)
+
 
 ## Next Steps:
 
